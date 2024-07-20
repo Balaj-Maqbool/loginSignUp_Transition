@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    height: 651px;
+    width: 90%;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    right:100px;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden
+   
+}
+.sign-up-form {
+
+    height: 550px;
+    width: 45.5%;
+    position:absolute;
+    left: 20px;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:white;
+
+}
+.sign-up-form h1 {
+    font-family:sans-serif;
+    position: relative;
+    top:  20px;
+    font-weight: 800;
+}
+.sign-up-form .social{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 30px;
+    left: 50px;
+    width: 300px; 
+    height: 60px;
+
+}
+.social i{
+    height: 45px;
+    width: 60px;
+    font-size: 1.5rem;
+    background-color: rgb(247, 245, 245);
+    border-radius: 47%;
+    text-align: center;
+    padding-top: 15px;
+}
+.sign-up-form h3{
+
+    position: relative;
+    top: 90px;
+    font-family:sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: black;
+}
+.sign-up-form .information{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+
+}
+.sign-up-form input{
+    height: 48px;
+    margin-bottom: 20px;
+    background-color: rgb(226, 226, 226);
+    border: transparent;
+}
+.sign-up-form button{
+    position: relative;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    left: 80px;
+    padding: 10px 20px 35px;
+    border-radius: 30px;
+    background-color: rgb(3, 2, 2);
+    color: rgb(227, 225, 225);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.log-in-form {
+
+    height: 550px;
+    width: 45.5%;
+    position:absolute;
+    right: 20px;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:white;
+    
+
+}
+
+.log-in-form h1 {
+    font-family:sans-serif;
+    position: relative;
+    top:  20px;
+    font-weight: 800;
+}
+.log-in-form .social{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 30px;
+    left: 50px;
+    width: 300px; 
+    height: 60px;
+
+}
+ .log-in-form .social i{
+    height: 45px;
+    width: 60px;
+    font-size: 1.5rem;
+    background-color: rgb(247, 245, 245);
+    border-radius: 47%;
+    text-align: center;
+    padding-top: 15px;
+}
+.log-in-form h3{
+
+    position: relative;
+    top: 90px;
+    font-family:sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: black;
+}
+.log-in-form .information{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+
+}
+.log-in-form input{
+    height: 48px;
+    margin-bottom: 20px;
+    background-color: rgb(226, 226, 226);
+    border: transparent;
+}
+.log-in-form button{
+    position: relative;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    left: 80px;
+    top: 45px;
+    padding: 10px 20px 35px;
+    border-radius: 30px;
+    background-color: rgb(3, 2, 2);
+    color: rgb(227, 225, 225);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.log-in-form a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    font-size: 1 rem;
+    font-weight: 500;
+    top: 20px;
+   
+
+}
+
+.sign-in-slider{
+    position:absolute;
+    height: 645px;
+    width:50%;
+    right: 0px;
+    bottom: 0px;
+    color: whitesmoke;
+    background-color: black;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    transition: all 1s ease-in .1s;
+    visibility: hidden;
+
+}
+.sign-up-slider{
+    position:absolute;
+    height: 645px;
+    width:50%;
+    top: 0px;
+    left: 0px;
+    color: whitesmoke;
+    background-color: black;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    transition: all 1s ease-in .1s;
+    /* visibility: hidden;
+    opacity: 0; */
+    
+    
+}
+ #sign-in-button,#sign-up-button{
+    position: relative;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    left: 250px;
+    padding: 10px 20px 35px;
+    border-radius: 30px;
+    background-color: rgb(4, 3, 3);
+    color: rgba(254, 51, 254, 0.902);
+    border:3px solid white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    
+}
+.wellcome{
+    font-family: sans-serif;
+    font-size: 2.8rem;
+    position: relative;
+    top: 30px;
+
+}
+.pre{
+    font-family: sans-serif;
+    font-size: 1rem;
+    position: relative;
+    top: 100px;
+    color: whitesmoke;
+
+}
+.msg{
+    font-family: sans-serif;
+    font-size: 1rem;
+    position: relative;
+    top: 80px;
+    color: whitesmoke;
+
+}
+#sign-up-button :active .sign-up-slider{
+    transform: translateX(735px);
+    opacity: 0;
+    visibility: hidden;
+}
+#sign-up-button :active .sign-in-slider{
+    /* transform: translateX(-735px); */
+    opacity: 1;
+    visibility: visible;
+
+}
+#sign-in-button :active .sign-in-slider{
+    transform: translateX(-735px);
+    opacity: 0;
+    visibility: hidden;
+
+}
+#sign-in-button :active .sign-up-slider{
+    transform: translateX(-735px);
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
+
+ /* #sign-up:hover {
+
+        transform: translateX(735px);
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;   
+
+} 
+#sign-up:hover .slider#sign-in{
+
+    transform: translateX(735px);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;    
+    opacity: 0;
+
+}  */
+
+
