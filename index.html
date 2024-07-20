@@ -59,5 +59,18 @@
                     <button id="sign-in-button">Click , to Sign in</button>
                 </div>
     </div>
+    <script type="text/javascript">
+        const SignUpbutton = document.getElementById('sign-up-button');
+        const SignInbutton = document.getElementById('sign-in-button');
+        const main = document.getElementById('main');
+        SignUpbutton.addEventListener('click', () => {
+            main.classList.add("");
+        });
+
+        SignInbutton.addEventListener('click', () => {
+            main.classList.remove("");
+        });
+
+    </script>
 </body>
 </html>
