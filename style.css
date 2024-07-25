@@ -209,7 +209,7 @@
     left: 0px;
     bottom: 0px;
     color: whitesmoke;
-    background-color:  black;
+    background-color: black;
     border: 4px solid black;
     display: flex;
     flex-direction: column;
@@ -287,15 +287,16 @@
 
 }
 
-.SignUpSlideRight{
+.SignUpSlideRight {
     right: 0px;
     transform: translateX(98%);
     opacity: 0;
-    visibility: hidden; 
+    visibility: hidden;
     /* z-index: -1; */
 
 }
-.SignInSlideRight{
+
+.SignInSlideRight {
     right: 0px;
     transform: translateX(98.5%);
     opacity: 1;
@@ -304,7 +305,7 @@
 
 }
 
-.SignUpSlideLeft{
+.SignUpSlideLeft {
     left: 0px;
     opacity: 1;
     /* z-index: 1; */
@@ -312,26 +313,28 @@
 
 
 }
-.SignInSlideLeft{
+
+.SignInSlideLeft {
     left: 0px;
 
     /* z-index: -1; */
     opacity: 0;
-    visibility: hidden; 
+    visibility: hidden;
 
 }
 
-.signUpFormVisibilityRight{
+.signUpFormVisibilityRight {
     opacity: 1;
 }
 
-.signInFormVisibilityRight{
-    opacity: 0;
-}
-.signUpFormVisibilityLeft{
+.signInFormVisibilityRight {
     opacity: 0;
 }
 
-.signInFormVisibilityLeft{
+.signUpFormVisibilityLeft {
+    opacity: 0;
+}
+
+.signInFormVisibilityLeft {
     opacity: 1;
 }
